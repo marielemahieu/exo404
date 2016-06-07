@@ -1,0 +1,141 @@
+html,body{
+    margin:0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+* Entête
+*/
+
+.header{
+    background-color: white;
+    height:77px;
+    overflow: hidden;
+}
+.header .logo{
+    overflow: hidden;
+    width:150px;
+    float:left;
+    margin-top: 20px;
+}
+
+
+/*
+* Menu
+*/
+.header .menu{
+    float: right;
+}
+.header .menu ul {
+    margin-left:0;
+    -webkit-padding-start:0;
+    padding-top:15px;
+}
+
+.header .menu li{
+    list-style-type: none;
+    display:inline;
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+.header .menu li a{
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color:black;
+}
+
+.header .menu li:last-child a{
+    background-color: black;
+    color:white;
+}
+
+.header .menu li a:hover{
+    background-color:#ccc;
+}
+
+
+
+/*
+* Contenu
+*/
+
+.content{
+    padding-top:40px;
+    text-align:center;
+    background-color:#FFDB00;
+    padding-bottom:50px;
+}
+
+.content h1{
+    color:#fff;
+}
+
+.content .btn-return{
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding-left:50px;
+    line-height: 80px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background:transparent url(./images/btn-404.svg) no-repeat 0 center;
+    
+}
+
+/**
+* Footer
+*/
+
+.footer{
+    color:#fff;
+    background-color: #333;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.footer a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.colone-4{
+    width:25%;
+    float:left;
+}
+
+.logo-footer{
+    margin-top:50px;
+    margin-left:10px;
+}
+
+.footer .social{
+    margin-left:0;
+    -webkit-padding-start:0;
+}
+
+.footer .social li{
+    display: inline;
+}
+
+.footer .social li img{
+    width:40px;
+}
+
+.content a{
+	color:#fff;
+	text-transform:uppercase;
+    text-decoration: none;
+    padding-left:50px;
+    line-height: 80px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background:transparent url(./images/btn-404.svg) no-repeat 0 center;
+}
